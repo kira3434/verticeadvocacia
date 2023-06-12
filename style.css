@@ -81,12 +81,12 @@ nav{
     height: 90vh;
     padding-top: 10vh;
     display: flex;
-    align-items: center;
+
 }
 .menu-lateral{
     position: fixed;
     right: 0;
-    top: 130px;
+    top: 85px;
     width: 300px;
     height: 100%;
     background-color: var(--cor-destaque2);
@@ -174,7 +174,6 @@ nav{
     width: 80%;
     height: 80%;
     margin: 0 auto;
-    margin-top: 120px;
     display: flex;
     animation: fade-in 3s forwards; /* Aplica a animação */
     align-items: center;
@@ -182,7 +181,7 @@ nav{
 .texto-inicio{
     width: 60%;
     height: 100%;
-    
+    margin-bottom: 120px;
 }
 .texto-inicio h1{
     color: var(--cor-destaque1);
